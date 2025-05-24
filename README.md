@@ -8,6 +8,7 @@ Computer with Vivado or any Verilog simulation software.
 Verilog HDL compiler.
 
 // Verilog Code
+```
 module ripple_carry_adder_4bit (
     input [3:0] A,      // 4-bit input A
     input [3:0] B,      // 4-bit input B
@@ -40,9 +41,14 @@ module ripple_carry_adder_4bit (
     assign Sum = sum_temp;
 
 endmodule
+```
+OUTPUT:
+![image](https://github.com/user-attachments/assets/04413af5-7d1b-47c4-8107-d3bef1e9af82)
+
 
 
 // Test bench for Ripple carry adder
+```
 
 module ripple_carry_adder_4bit_tb;
 
@@ -85,11 +91,15 @@ module ripple_carry_adder_4bit_tb;
     end
 
 endmodule
-![image](https://github.com/user-attachments/assets/e7bef45e-8f61-4160-8bf3-6f2ec4cbe2c3)
+```
+OUTPUT:
+![Screenshot 2025-05-24 215741](https://github.com/user-attachments/assets/c1a14f6f-4684-4b90-9b19-3da043a33b61)
+
 
 
 
 // Verilog Code ripple counter
+```
 
 module ripple_counter_4bit (
     input clk,           // Clock signal
@@ -114,8 +124,14 @@ module ripple_counter_4bit (
     end
 
 endmodule
+```
+OUTPUT:
+![image](https://github.com/user-attachments/assets/3a95f661-f892-4a3a-8319-c2cd569990cc)
+
+
 
 // TestBench
+```
 
 module ripple_counter_4bit_tb;
 
@@ -150,7 +166,10 @@ module ripple_counter_4bit_tb;
     end
 
 endmodule
-![image](https://github.com/user-attachments/assets/c94df0be-b602-412c-ac38-766149861795)
+```
+OUTPUT:
+![image](https://github.com/user-attachments/assets/09ca91f2-da10-413b-9c8f-885010eedcb0)
+
 
 
 Conclusion:
